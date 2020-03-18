@@ -59,7 +59,7 @@ class calc:
     def action(self,arg):
         self.var.insert(END,arg)
     def __init__(self,master):
-        master.title("calculater by shubh")
+        master.title("Calculater")
         master.geometry()
         master.resizable(width=False,height=False)
         master.configure(bg='ivory3')
